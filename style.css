@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Astral-Enfant
+ Template:     astral
+*/
+body {
+    font-family: Roboto;
+  }
+  #masthead {
+    background-color: #fbfbe3;
+    border-bottom: 2px solid;
+}
+  .entry .entry-title:before {
+    height: 0;
+  }
+
+  #page {
+      background-color: #e0e0e0;
+  }
+
+  .post-edit-link {
+      display: none;
+  }
+  @media only screen and (max-width: 782px) {
+    .site-description {
+      display: block;
+    }
+  }
