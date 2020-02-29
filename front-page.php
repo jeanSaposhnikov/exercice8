@@ -28,7 +28,7 @@ do_action( 'astral_breadcrumb_area' );
                 <!-- left side -->
                 <div class="col-lg-8 single-left mt-lg-0 mt-4">
 
-					<?php 
+		<?php 
 		while ( have_posts() ) :
 			the_post();
 
@@ -92,7 +92,7 @@ do_action( 'astral_breadcrumb_area' );
 		 
 		// Restore original Post Data
 		wp_reset_postdata();
-					?>
+		?>
                 </div>
                 <!-- right side -->
                 <div class="col-lg-4 event-right">
